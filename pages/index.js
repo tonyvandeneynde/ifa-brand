@@ -5,8 +5,8 @@ const Index = () => (
     <div className='landingPage'>
         <Head>
             <title>Ifa Brand</title>
+            <link href="https://fonts.googleapis.com/css?family=Titillium+Web:100,200,400" rel="stylesheet" />
             <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
-            <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
         <div className='landingPage-container'>
@@ -54,6 +54,8 @@ const Index = () => (
         <style jsx global>{`
             * {
                 font-family: 'Titillium Web', sans-serif;
+                font-weight: 100;
+                font-size: 20px;
                 }
         `}</style>
     </div>

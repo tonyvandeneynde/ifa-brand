@@ -73,7 +73,11 @@ export default class Navbar extends Component {
                 { (positionFixed && !forceRemoveNav) &&
                   <nav className='fixed'><NavbarContent /></nav>
                 }
-                <nav className='static'><NavbarContent /></nav>
+                { forceRemoveNav ?
+                  <nav className='static hide'><NavbarContent /></nav>
+                  :
+                  <nav className='static'><NavbarContent /></nav>
+                }
               </React.Fragment>
             }
           </React.Fragment>
@@ -93,7 +97,10 @@ export default class Navbar extends Component {
             animation-duration: 0.5s;
           }
           .static {
-            margin-bottom: 100px;
+            margin-bottom: 60px;
+          }
+          .hide {
+            color: transparent !important;
           }
           /* Safari 4.0 - 8.0 */
           @-webkit-keyframes example {

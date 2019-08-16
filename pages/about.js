@@ -8,7 +8,7 @@ export default function work() {
     <div className='about'>
     <Head>
       <title>Ifa Brand</title>
-      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:100" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:100,200,400" rel="stylesheet" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
     <Navbar />
@@ -17,17 +17,29 @@ export default function work() {
       <p>Sometimes Bold. Other times subtle.</p>
       <p>The underlining driving force in the work of Ifa Brand whilst exploring her exhibitionism. The viewer-
       voyeur in atmospheric tales with hints of fetishism engraved in polaroid worlds. </p>
-      <br />
-      <p>My interest in photography is an extension of my modelling career. The desire to create and control
-      my own image started to appeal more to me than just being in front of the camera acting out
-      someone else’s concept. Since late 2017 I have been shooting solo and arranging everything from
-      location to make-up, styling, modelling to the photography itself. Starring in my own film.</p>
+      <br/>
+      <p>Since late 2017 I have been shooting self portraits working exclusivly with polaroid.
+It grew out of my frustrations with modelling where I was not able to represent my true identity. The
+desire to create and control my own image started to appeal more to me than just being in front of
+the camera acting out someone else’s concept. It no longer gave me satisfaction.
+The deep desire to create my own narrative gave me the empowerment to start a new journey.
+The imperfections, atmopshere and challenges I find in the Polaroid medium. It is ideal to create my
+work which is a combination of old cheesecake glamour and art. One does not exclude the other.
+They both originate from deep within.</p>
       <div className='about-publications'>
-        <div>Publications:</div>
+        <div className='about-subtitle'>Publications:</div>
         <ul>
           <li><a href="https://photodarium.de/" target="_blank">Photodarium Private 2019</a></li>
-          <li><a href="https://photodarium.de/" target="_blank">Photodarium Private 2020</a></li>
-          <li><a href="https://wasemag.com/" target="_blank">Wasemag.com</a></li>
+          <li><a href="http://www.seltmannundsoehne.de/en/buecher/ansehen/346/" target="_blank">Photodarium Private 2020</a></li>
+          <li><a href="https://wasemag.com/" target="_blank">We Are Something Else magazine</a></li>
+          <li><a href="(https://www.lebateau.org/" target="_blank">Le Bateau Magazine – Issue 17</a></li>
+        </ul>
+      </div>
+      <div className='about-exhibitions'>
+        <div className='about-subtitle'>Upcoming exhibitions</div>
+        <ul>
+          <li><a href="https://www.facebook.com/events/395320904392149/" target="_blank">Capturing the Female Mind Through Art – Antwerp, BE.</a></li>
+          <li><a href="https://www.iso600.it/" target="_blank">ISO600 – Bologna, IT.</a></li>
         </ul>
       </div>
     </div>
@@ -42,8 +54,11 @@ export default function work() {
           margin-left: 10%;
           margin-right: 10%;
         }
-        .about-publications{
+        .about-publications, .about-exhibitions{
           margin-top: 100px;
+        }
+        .about-subtitle{
+          font-weight:400;
         }
         a{
           text-decoration: none;

@@ -12,7 +12,7 @@ export default class NavbarContent extends Component {
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
             </Head>
             <nav className='nav'>
-                <div className='logo'><h1>Ifa Brand</h1></div>
+                <div className='logo'>Ifa Brand</div>
                 <ul className='navItems'>
                     <li><Link href={`/work`}><a>Work</a></Link></li>
                     <li><Link href={`/about`}><a>About</a></Link></li>
@@ -22,6 +22,9 @@ export default class NavbarContent extends Component {
             <style jsx>{`
               nav {
                 display: flex;
+                font-family: 'Titillium Web', sans-serif;
+                font-weight: 100;
+                font-size: 20px;
             }
       
               ul {
@@ -36,10 +39,11 @@ export default class NavbarContent extends Component {
                 margin-right: 30px;
               }
       
-              h1 {
+              .logo {
                 font-size: 30px;
                 margin: 0;
                 margin-right: 60px;
+                font-weight:100 !important;
               }
       
               a {

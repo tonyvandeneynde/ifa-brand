@@ -8,7 +8,7 @@ export default function work() {
     <div>
     <Head>
         <title>Ifa Brand</title>
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:100,200,400" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
     <Navbar />

@@ -49,11 +49,14 @@ export default class ImageModal extends Component {
                         z-index: 2;
                     }
                     img{
-                        width: 60vw;
+                        /*width: 60vw;
+                        max-width: 700px;*/
+                        width: auto;
                         max-width: 700px;
+                        max-height: 100vh;
                     }
                     .closeBar{
-                        background-color: white;
+                        background-color: none;
                         position: fixed;
                         left: 0;
                         top: 0;
@@ -68,6 +71,7 @@ export default class ImageModal extends Component {
                         color:black;
                     }
                     .carousel{
+                        z-index: 20;
                         display:flex;
                         justify-content: center;
                         align-items: center;
