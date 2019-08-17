@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 export default function work() {
   return (
-    <div>
+    <div className='shop'>
     <Head>
         <title>Ifa Brand</title>
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:100,200,400" rel="stylesheet" />
@@ -22,6 +22,7 @@ export default function work() {
         @media (max-width: 950px) {
           div {
             padding: 10px 0;
+            padding-bottom: 100px;
           }
         }
       `}</style>

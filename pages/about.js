@@ -50,6 +50,7 @@ They both originate from deep within.</p>
         .about{
           margin:0;
           padding:10px 50px;
+          padding-bottom: 100px;
         }
         .about-text{
           max-width:900px;

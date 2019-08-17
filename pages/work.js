@@ -50,7 +50,7 @@ export default class work extends Component {
     render() {
         const {images, selectedIndex, forceRemoveNav} = this.state
         return (
-            <div>
+            <div className='work'>
                 <Head>
                     <title>Ifa Brand</title>
                     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:100,200,400" rel="stylesheet" />
@@ -72,6 +72,9 @@ export default class work extends Component {
                     @media (max-width: 950px) {
                         div {
                           padding: 10px 0;
+                        }
+                        .work {
+                          padding-bottom: 100px;
                         }
                       }
                 `}</style>
