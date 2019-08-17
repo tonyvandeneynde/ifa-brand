@@ -16,7 +16,7 @@ export default class NavbarContent extends Component {
                 <ul className='navItems'>
                     <li><Link href={`/work`}><a>Work</a></Link></li>
                     <li><Link href={`/about`}><a>About</a></Link></li>
-                    <li><Link href={`/shop`}><a>Shop</a></Link></li>
+                    <li><a href='https://www.etsy.com/shop/Ifaroids/' target="_blank">Shop</a></li>
                 </ul>
             </nav>
             <style jsx>{`

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import ImageGrid from '../components/ImageGrid';
 import ImageModal from '../components/ImageModal';
 import Head from 'next/head';
+import Footer from '../components/Footer'
 
 export default class work extends Component {
 
@@ -62,6 +63,7 @@ export default class work extends Component {
                 {images &&
                     <ImageGrid images={images} onClickImage={this.onClickImage}/>
                 }
+                <Footer />
                 <style jsx>{`
                     div{
                         margin:0;

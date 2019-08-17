@@ -45,13 +45,13 @@ export default class NavbarContent_smallscreen extends Component {
             </Head>
             <div className='navbarMargin'></div>
             <nav className='nav'>
-                <div className='logo'><h1>Ifa Brand</h1></div>
+                <div className='logo'>Ifa Brand</div>
                 <div className='menuDropdown' onClick={this.toggelDropdown}><i id='dropdownMenu' className="fas fa-bars" /></div>
                 { dropdownOpen &&
                     <ul className='navItems'>
                         <li onClick={this.onLinkClick}><Link href={`/work`}><a>Work</a></Link></li>
                         <li onClick={this.onLinkClick}><Link href={`/about`}><a>About</a></Link></li>
-                        <li onClick={this.onLinkClick}><Link href={`/shop`}><a>Shop</a></Link></li>
+                        <li><a href='https://www.etsy.com/shop/Ifaroids/' target="_blank">Shop</a></li>
                     </ul>
                 }
             </nav>
@@ -68,7 +68,13 @@ export default class NavbarContent_smallscreen extends Component {
                 position: fixed;
                 top: 0;
                 background-color: white;
-            }
+              }
+              .logo {
+                font-size: 30px;
+                margin: 0;
+                margin-right: 60px;
+                font-weight:100 !important;
+              }
       
               ul {
                 display: flex;
@@ -123,6 +129,9 @@ export default class NavbarContent_smallscreen extends Component {
                     flex-direction: column;
                     background-color: white;
                     box-shadow: 0px 0px 5px 0px;
+                }
+                #dropdownMenu {
+                  font-size: 40px;
                 }
             `}</style>
         </div>

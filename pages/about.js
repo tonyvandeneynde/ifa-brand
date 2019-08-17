@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer'
 import Head from 'next/head';
 
 
@@ -29,20 +30,21 @@ They both originate from deep within.</p>
       <div className='about-publications'>
         <div className='about-subtitle'>Publications:</div>
         <ul>
-          <li><a href="https://photodarium.de/" target="_blank">Photodarium Private 2019</a></li>
-          <li><a href="http://www.seltmannundsoehne.de/en/buecher/ansehen/346/" target="_blank">Photodarium Private 2020</a></li>
-          <li><a href="https://wasemag.com/" target="_blank">We Are Something Else magazine</a></li>
-          <li><a href="(https://www.lebateau.org/" target="_blank">Le Bateau Magazine – Issue 17</a></li>
+          <li><a className='about-link' href="https://photodarium.de/" target="_blank">Photodarium Private 2019</a></li>
+          <li><a className='about-link' href="http://www.seltmannundsoehne.de/en/buecher/ansehen/346/" target="_blank">Photodarium Private 2020</a></li>
+          <li><a className='about-link' href="https://wasemag.com/" target="_blank">We Are Something Else magazine</a></li>
+          <li><a className='about-link' href="https://www.lebateau.org/" target="_blank">Le Bateau Magazine – Issue 17</a></li>
         </ul>
       </div>
       <div className='about-exhibitions'>
         <div className='about-subtitle'>Upcoming exhibitions</div>
         <ul>
-          <li><a href="https://www.facebook.com/events/395320904392149/" target="_blank">Capturing the Female Mind Through Art – Antwerp, BE.</a></li>
-          <li><a href="https://www.iso600.it/" target="_blank">ISO600 – Bologna, IT.</a></li>
+          <li><a className='about-link' href="https://www.facebook.com/events/395320904392149/" target="_blank">Capturing the Female Mind Through Art – Antwerp, BE.</a></li>
+          <li><a className='about-link' href="https://www.iso600.it/" target="_blank">ISO600 – Bologna, IT.</a></li>
         </ul>
       </div>
     </div>
+    <Footer />
 
     <style jsx>{`
         .about{
@@ -53,6 +55,8 @@ They both originate from deep within.</p>
           max-width:900px;
           margin-left: 10%;
           margin-right: 10%;
+          font-weight: 100;
+          font-size: 20px;
         }
         .about-publications, .about-exhibitions{
           margin-top: 100px;
@@ -60,7 +64,7 @@ They both originate from deep within.</p>
         .about-subtitle{
           font-weight:400;
         }
-        a{
+        .about-link{
           text-decoration: none;
           color: black;
         }
@@ -73,8 +77,6 @@ They both originate from deep within.</p>
               <style jsx global>{`
             * {
                 font-family: 'Titillium Web', sans-serif;
-                font-weight: 100;
-                font-size: 20px;
                 }
         `}</style>
     </div>
