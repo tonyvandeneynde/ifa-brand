@@ -72,6 +72,7 @@ They both originate from deep within.</p>
         @media (max-width: 950px) {
           .about {
             padding: 10px 0;
+            padding-bottom: 100px;
           }
         }
       `}</style>

@@ -18,6 +18,7 @@ export default function work() {
         div{
             margin:0;
             padding:10px 50px;
+            padding-bottom: 100px;
         }
         @media (max-width: 950px) {
           div {
