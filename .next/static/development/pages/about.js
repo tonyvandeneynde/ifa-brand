@@ -12482,7 +12482,7 @@ function work() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fhome%2FProjects%2Fifa-brand%2Fpages%2Fabout.js ***!
   \*******************************************************************************************************************************/
@@ -12505,5 +12505,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
