@@ -29,7 +29,7 @@ export default class ImageModal extends Component {
                 </div>
                 <div className={'carousel'}>
                     <i onClick={onClickPrev} className="arrow prev fas fa-chevron-left"></i>
-                    <img src={imagePath + image.title + '.jpg'} />
+                    <img src={imagePath + image} />
                     <i onClick={onClickNext} className="arrow next fas fa-chevron-right"></i>
                 </div>
             </div>

@@ -12,7 +12,7 @@ export default function ImageGrid(props) {
                         key={i}
                         onClick={()=>onClickImage(i)}
                         className={'gridItem'}>
-                        <img src={imagePath + image.title + '_thumb.jpg'} />
+                        <img src={imagePath + image} />
                     </div>)
                 }
             </div>
@@ -31,11 +31,13 @@ export default function ImageGrid(props) {
                 }
                 img{
                     min-width: 250px;
+                    width: 250px;
+                    height: 250px;
+                    object-fit: cover;
                 }
                 @media (max-width: 950px) {
                     img {
                         min-width: 150px;
-                        width: 150px;
                     }
                 }
             `}</style>

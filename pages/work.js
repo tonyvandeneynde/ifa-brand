@@ -10,14 +10,18 @@ export default class work extends Component {
     constructor(props){
         super(props)
         this.state = {
-            images: undefined,
             selectedIndex: undefined,
-            forceRemoveNav: false
+            forceRemoveNav: false,
+            images: undefined
         }
     }
 
     componentDidMount(){
-        const images = require('../static/images/images.json').images;
+        const numberOfImages = require('../static/images/images.json').images.number;
+        const images = []
+        for (let index = 1; index <= numberOfImages; index++) {
+            images.push(index + '.jpg')
+        }
         this.setState({images})
     }
 
