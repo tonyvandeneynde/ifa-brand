@@ -16,7 +16,7 @@ const Index = () => (
                         IFA BRAND
                     </h1>
                     <h3 className='landingPage-subTitle'>
-                        Polaroid Photography
+                        Photography
                     </h3>
                 </a>
             </Link>

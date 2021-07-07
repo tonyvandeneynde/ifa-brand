@@ -15,38 +15,41 @@ export default function work() {
     <Navbar />
     <div className='about-text'>
       <p>
-        <h3>
-          IFA BRAND - BOUDOIR published by Circa Press<br/>
-          First hardcover photo book - 128pp - 70 colour illustrations
-        </h3>
-      </p>
-      <p>
-        <h3 className='no-margin'>PLEDGE NOW on kickstarter!</h3>
-        <a className='about-link' href="https://www.kickstarter.com/projects/circa/ifa-brand-boudoir" target="_blank">https://www.kickstarter.com/projects/circa/ifa-brand-boudoir</a>
-      </p>
-      <p>
       <strong>Ifa Brand</strong> graduated from the Royal Academy of Fine Arts, Antwerp, as a master silversmith & jewellery designer. She began modelling as a hobby, but it soon assumed a bigger role in her life. In 2013, she was featured on the cover of Dutch Playboy magazine. She describes this period in her life:<br />
       &emsp;&emsp;‘I modelled for a few years but never felt satisfied. The dissatisfaction stemmed from not being able to represent my true identity. I fell between styles: alternative but not alternative enough; fetish but not in a typical sense. I also disliked photographers telling me how I should look, pose, behave; telling me no to red lips, no to precious lingerie and all the things I loved.’<br />
       &emsp;&emsp;In 2017, she decided to go her own way. She saw photography as an opportunity to be her own creative director, and to explore her own vision of sensuality, eroticism and fetish. Hers is a quest for personal empowerment through the art of self-portraiture.<br />
       &emsp;&emsp;She bought a Polaroid camera to experiment with and loved it immediately: ‘It gave me a whole new experience – the sound of the camera taking the image, the smell of the chemicals, which are so strong and specific to Polaroid, and the way the images roll out of the camera, unedited and pure. For me, technique is secondary to feeling. I think in colours, shadows and contrast. Polaroid is unstable, always unpredictable. It challenges you each time.’<br />
+      She poses gracefully as the blonde bombshell in her own silent Polaroid film still between mirrored ceilings and floral wallpapers. High heels spike the pillows. Red lips, a pale complexion and platinum blonde hair in her own Femme Fatale construction. With her work she provides a gaze into an erotic image world constructed entirely from a female perspective. Her quest continues until this very day.<br />
+      <br />
+      <br />
+      Her work has been published internationally in magazines such as Playboy, many Polaroid themed publications, newspapers and more.<br />
+      Her first coffee table photobook ‘Ifa Brand - Boudoir’, published by CircaPress (UK) will be released September 2021. This book has a limited run of 500 copies and will be sold worldwide.<br />
+      
+
       </p>
       <div className='about-publications'>
         <div className='about-subtitle'>Publications:</div>
         <ul>
-          <li><a className='about-link' href="https://photodarium.de/" target="_blank">Photodarium Private 2019</a></li>
-          <li><a className='about-link' href="https://photodarium.de/" target="_blank">Photodarium Private 2020</a></li>
-          <li><a className='about-link' href="https://photodarium.de/" target="_blank">Photodarium Private 2021</a></li>
+          <li><a className='about-link' href="https://photodarium.de/" target="_blank">Photodarium calendar - Private edition 2019, 2020, 2021, 2022.</a></li>
           <li><a className='about-link' href="https://phonographer.nl/" target="_blank">Phonographer Magazine – Issue 03/19</a></li>
           <li><a className='about-link' href="https://www.magcloud.com/browse/magazine/162779" target="_blank">Sinical Magazine – Issue December 2019</a></li>
-          <li><a className='about-link' href="http://instantphotographers.com/ifa-brand/" target="_blank">Instant Photographers – Guest photographer - JAN 2020</a></li>
-          <li><a className='about-link' href="https://www.lebateau.org/" target="_blank">Le Bateau Magazine – Issue 17</a></li>
+          <li><a className='about-link' href="http://instantphotographers.com/ifa-brand/" target="_blank">Caro, Andrés Aguilar. 2020, 10 January. Ifa Brand. Guest photographers. Polaroid Originals. Instant Photographers.com</a></li>
+          <li><a className='about-link' href="https://www.lebateau.org/" target="_blank">Le Bateau Magazine – Issue 17 – La Nuit</a></li>
           <li><a className='about-link' href="https://polysememagazine.bigcartel.com/" target="_blank">Polysème Magazine – Issue 4 – Séxualités</a></li>
           <li>Imagenation Paris Press - Instant Art Paris 2020 - photobook</li>
-          <li>Vlam Magazine NL - Edition 1/2021</li>
+          <li><a className='about-link' href="https://www.vlammagazine.nl/" target="_blank">Hindriks, Jeroen. Vlam Magazine NL - Edition 01/2021</a></li>
+          <li><a className='about-link' href="https://thefetishistas.com/ifa-brand-boudoir-kickstarter/" target="_blank">Mitchell, Tony. 2021, 11 May</a></li>
+          <li><a className='about-link' href="https://www.hbvl.be/cnt/dmf20210521_97985054" target="_blank">Wyers, Marij. 2021, 22 May</a></li>
+          <li>Voormalig Playboy-model uit Borgloon brengt boek uit met erotische zelfportretten. Het Belang van Limburg.</li>
+          <li><a className='about-link' href="https://www.gva.be/cnt/dmf20210518_95292126" target="_blank">Provoost, Bert. 2021, 18 May. Heists Playboymodel fotografeert zichzelf met Polaroid: “Ik vind het heel leuk om een vrouw te zijn”. Gazet van Antwerpen.</a></li>
+          <li><a className='about-link' href="https://www.nieuwsblad.be/cnt/dmf20210522_91715341" target="_blank">Wyers, Marij. 2021, 22 May - Voormalig Playboy-model plooit niet voor censuur: “Helemaal oké om jezelf te tonen als vrouw”. Het Nieuwsblad.</a></li>
+          <li><a className='about-link' href="https://www.nieuwsblad.be/cnt/dmf20210518_95292126" target="_blank">Provoost, Bert. 2021, 18 May. Heists Playboymodel fotografeert zichzelf met Polaroid: “Ik vind het heel leuk om een vrouw te zijn”. Het Nieuwsblad.</a></li>
+
+
         </ul>
       </div>
       <div className='about-exhibitions'>
-        <div className='about-subtitle'>Past exhibitions</div>
+        <div className='about-subtitle'>GALLERY GROUP SHOWS:</div>
         <ul>
           <li><a className='about-link' href="https://www.facebook.com/events/395320904392149/" target="_blank">2019: Capturing the Female Mind Through Art – Antwerp, BE.</a></li>
           <li><a className='about-link' href="https://www.iso600.it/" target="_blank">2019: ISO600 – Bologna, IT.</a></li>
